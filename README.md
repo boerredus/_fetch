@@ -32,5 +32,5 @@ _fetch().then(res => {
 
 
 **Note #1**: there's no way of getting the original's fetch API responses (e.g Response.ok or Response.status) since it isn't a fetch call.
-However, it is possible to acces the XMLHttpRequest object properties through the this keyword.<br><br>
+However, it is possible to access the XMLHttpRequest object properties through the `this` keyword.<br><br>
 **Note #2**: one can _include_ Headers on the options parameter (the second one) as when using the fetch API.
