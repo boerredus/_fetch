@@ -12,22 +12,22 @@ As previously mentioned, it follows the same syntax as the `fetch` JavaScript AP
 
 Request example:
 ```javascript
-    _fetch("https://google.com", {
-        mode: "POST",
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: null
-    });
+_fetch("https://google.com", {
+    mode: "POST",
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: null
+});
 ```
 
 It returns a promise which is resolved as soon as the XMLHttpRequest response loads.
 Response example:
 ```javascript
-    _fetch().then(res => {
-        // this === XMLHttpRequest object
-        // res === the response from the server
-    });
+_fetch().then(res => {
+    // this === XMLHttpRequest object
+    // res === the response from the server
+});
 ```
 
 
