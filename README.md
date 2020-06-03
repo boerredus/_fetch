@@ -25,8 +25,8 @@ It returns a promise which is resolved as soon as the XMLHttpRequest response lo
 Response example:
 ```javascript
 _fetch().then(res => {
-    // this === XMLHttpRequest object
-    // res === the response from the server
+    console.log(this);  // XMLHttpRequest object
+    console.log(res);   // Response from the server
 });
 ```
 
