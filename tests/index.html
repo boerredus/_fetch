@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../_fetch.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testing _fetch proxy function</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ratione accusamus quaerat ad, minus veritatis veniam deleniti? Ut esse, repellendus enim excepturi, necessitatibus vitae qui a, laborum aut iure maxime!Error maxime commodi inventore veritatis, fugit ea aspernatur asperiores molestias numquam doloribus ipsum? Provident quisquam minus reprehenderit ea eius at nulla pariatur nihil ipsum hic, facilis ratione atque amet harum.</p>
+
+    <script>
+        _fetch("server.html", {
+            mode: "POST"
+        }).then(console.log);
+    </script>
+</body>
+</html>
