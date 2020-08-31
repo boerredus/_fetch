@@ -1,7 +1,7 @@
 # _fetch
 
-This is a proxy function. It uses the same simple-to-read complex as the `fetch` API but works on the good ol' `XMLHttpRequest` under the hood.<br>
-This was an attempt to help my friend [@ericklaus16](https://github.com/ericklaus16) on the [mobile](https://github.com/alfachat/alfachatmobile) version of [AlfaChat](https://github.com/alfachat).
+This is a proxy function. It uses the same simple-to-read syntax as the `fetch` API but is the good ol' `XMLHttpRequest` under the hood.<br>
+This was an attempt to help my friend [@ericklaus16](https://github.com/ericklaus16) on the mobile version of AlfaChat.
 
 I hope it helps!
 
